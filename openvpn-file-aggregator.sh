@@ -1,7 +1,7 @@
 #!/bin/bash
 tempfile="/tmp/newfile.ovpn"
 newfile="newfile.ovpn"
-oldfile="base.ovpn"
+oldfile="openvpn.ovpn"
 if [ $# -ne 0 ]
 then
     oldfile=$1
